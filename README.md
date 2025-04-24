@@ -8,12 +8,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header & Logo -->
-    <header>
-        <img src="images/logo.png" alt="GASTRO LAX Logo" class="logo">
-        <img src="qr-code.png" alt="QR Code" class="qr-code">
-    </header>
-
     <!-- Hero Section -->
     <section class="hero">
         <img src="images/bottle.jpg" alt="GASTRO LAX Bottle">
@@ -24,15 +18,15 @@
     <!-- Key Benefits -->
     <section class="benefits">
         <div class="card">
-            💊 <h3>Neutralizes Acid</h3>
+            <h3>Neutralizes Acid</h3>
             <p>Quickly relieves heartburn and indigestion.</p>
         </div>
         <div class="card">
-            🌿 <h3>Gentle Laxative</h3>
+            <h3>Gentle Laxative</h3>
             <p>Promotes comfortable bowel movements.</p>
         </div>
         <div class="card">
-            ⭐ <h3>Pleasant & Sugar-Free</h3>
+            <h3>Pleasant & Sugar-Free</h3>
             <p>Refreshing mint taste.</p>
         </div>
     </section>
@@ -53,59 +47,3 @@
     </footer>
 </body>
 </html>
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background: #F8F9FA;
-}
-
-.logo {
-    width: 200px;
-    margin: 20px;
-}
-
-.qr-code {
-    width: 100px;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-}
-
-.hero {
-    text-align: center;
-    padding: 50px;
-    background: #2A5C8F;
-    color: white;
-}
-
-.hero img {
-    width: 300px;
-}
-
-.benefits {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 40px;
-}
-
-.card {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    width: 250px;
-    text-align: center;
-}
-
-.rewards {
-    background: #8BC34A;
-    padding: 30px;
-    text-align: center;
-}
-
-footer {
-    background: #2A5C8F;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
